@@ -2,7 +2,8 @@
 <p>Find me in app/views/products/index.html.erb</p>
 
 <% @products.each do |product| %>
-<%= product.formatted_price %>
+	<%= product.id %>: 
+	<%= product.formatted_price %><br/>
 <% end %>
 
 
