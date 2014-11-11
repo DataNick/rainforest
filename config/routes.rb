@@ -23,7 +23,7 @@ Rails.application.routes.draw do
   # get 'products/new'
 
   # get 'products/edit'
-resources :products
+
 resources :users, only: [:new, :create]
 resources :sessions, only: [:new, :create, :destroy]
 resources :products do
